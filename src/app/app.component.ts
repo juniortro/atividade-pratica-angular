@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import informacoes_aluno from './arquivo';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'atividade-pratica';
+
+  alunos: Array<any> = informacoes_aluno;
 }
